@@ -7,5 +7,5 @@ import java.util.UUID;
 
 public interface MyBaseRepository extends CrudRepository<ExampleEntity, UUID> {
 
-    ExampleEntityrud JPA & simple Sec getById(UUID uuid);
+    ExampleEntity getById(UUID uuid);
 }
